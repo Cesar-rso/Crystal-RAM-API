@@ -1,0 +1,28 @@
+name: ba0b1b830d654467dffb9784bbee24b60d10392e
+version: 0.1.0
+
+# authors:
+#   - César Rodrigues de Oliveira <cesar.rso@hotmail.com>
+
+# description: |
+#   Coding Challenge Milenio Capital
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+  sam:
+    github: imdrasil/sam.cr
+    version: 0.4.2
+
+  jennifer:
+    github: imdrasil/jennifer.cr
+    version: "~> 0.13.0"
+
+  sqlite3:
+    github: crystal-lang/crystal-sqlite3
+    version: "0.18.0"
+
+  jennifer_sqlite3_adapter:
+    github: imdrasil/jennifer_sqlite3_adapter
+    version: "~> 0.4.0"
